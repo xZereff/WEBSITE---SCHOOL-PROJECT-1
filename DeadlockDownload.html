@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Last ned spillet</title>
-  <link rel="stylesheet" href="DeadlockDownload.css">
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Find Deadlock on Steam and check the latest access information.">
+    <title>Download Deadlock</title>
+    <link rel="stylesheet" href="DeadlockDownload.css">
 </head>
+
 <body>
-      <header>
-        <nav class="site-nav">
+    <header id="top">
+        <nav class="site-nav" aria-label="Main navigation">
             <a class="site-nav__brand" href="DeadlockMain.html">DEADLOCK</a>
             <div class="site-nav__links">
                 <a href="DeadlockMain.html">Home</a>
@@ -17,7 +20,41 @@
                 <a href="DeadlockDownload.html" aria-current="page">Download</a>
             </div>
         </nav>
-<h1> Download</h1>
+    </header>
 
+    <main>
+        <section class="download-page" aria-labelledby="download-title">
+            <figure class="download-artwork">
+                <img src="Abraham Background.png" alt="A Deadlock hero standing in a shadowy city street">
+            </figure>
 
+            <div class="download-content">
+                <a class="download-action__button" href="https://store.steampowered.com/app/1422450/Deadlock/" target="_blank" rel="noopener noreferrer">
+                    Get Deadlock on Steam
+                    <span aria-hidden="true">→</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="site-footer__content">
+            <div class="site-footer__brand">
+                <a class="site-nav__brand" href="DeadlockMain.html">DEADLOCK</a>
+                <p>A fan-made overview of the world and heroes of Deadlock.</p>
+            </div>
+            <nav class="site-footer__links" aria-label="Footer navigation">
+                <a href="DeadlockMain.html">Home</a>
+                <a href="DeadlockInfo.html">Game info</a>
+                <a href="DeadlockGallery.html">Characters</a>
+                <a href="DeadlockDownload.html">Download</a>
+                <a href="#top">Back to top ↑</a>
+            </nav>
+        </div>
+        <div class="site-footer__bottom">
+            <p>Fan-made project. Not affiliated with Valve.</p>
+        </div>
+    </footer>
 </body>
+
+</html>
