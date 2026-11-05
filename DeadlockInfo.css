@@ -2,7 +2,7 @@ body {
     background-color: #262626;
     margin: 0;
     color: #f8f9ff;
-    height: 160vh;
+    height: 190vh;
     font-size: 1rem;
 }
 
@@ -47,20 +47,39 @@ body {
 }
 
 .bakgrunn img {
-    display: block;
     height: 85vh;
-    object-fit: cover;
     width: 100vw;
 }
 .info{
  text-align: center;
 }
 
+.Chart img {
+    height: 60vh;
+    width: 80vw;
+   position: relative;
+   left:10vw;
+   right: 10vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .site-footer {
-    background: #11100f;
+    background-color: #171716;
     border-top: 2px solid #a34d38;
-    color: #f2eee7;
-    padding: 40px max(8vw, 24px) 20px;
+    padding: 32px 24px 20px;
 }
 
 .site-footer__content {
@@ -113,10 +132,7 @@ body {
         flex-direction: column;
     }
 }
-.Chart>imf{
-     height: 40vh;
-     width: 60vw;
-}
+
 
 
 
