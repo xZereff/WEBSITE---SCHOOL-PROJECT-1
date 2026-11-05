@@ -4,7 +4,6 @@ body {
     color: #f8f9ff;
     height: 160vh;
     font-size: 1rem;
-    width: 100vw;
 }
 
 .site-nav {
@@ -55,7 +54,6 @@ body {
 }
 .info{
  text-align: center;
- size:3vw;
 }
 
 .site-footer {
@@ -119,10 +117,6 @@ body {
      height: 40vh;
      width: 60vw;
 }
-.Charts{
-     border: 0.5vw solid #a34d38;
-}
-
 
 
 
