@@ -88,7 +88,7 @@ main {
 
 .download-action__button {
     align-items: center;
-    background: rgba(242, 238, 231, 0.78);
+    background: rgba(201, 166, 107, 1);
     border: 1px solid rgba(242, 238, 231, 0.65);
     color: #171614;
     display: inline-flex;
@@ -105,7 +105,7 @@ main {
 
 .download-action__button:hover,
 .download-action__button:focus-visible {
-    background: rgba(242, 238, 231, 0.92);
+    background: rgba(235, 207, 151, 1);
 }
 
 .download-action__button:focus-visible,
