@@ -76,15 +76,15 @@ body {
 .spillertall{
 width:100vw;
 heigth:60vh;
-
-
+display: grid;
+grid-template-columns: 2fr 1fr;
+gap: 2vh;    
 }
 
 .bilde{
-
-
-    
-
+grid-column:1;
+background-color: #000000;
+border: 1px solid coral;
 }
 
 .bilde img {
@@ -95,11 +95,11 @@ heigth:60vh;
     right: 10vh;
 }
 
-.Chartinfo
-
-
-
-
+.Chartinfo{
+grid-column: 2;
+background-color: #000000;
+border: 1px solid coral;
+}
 
 
 
