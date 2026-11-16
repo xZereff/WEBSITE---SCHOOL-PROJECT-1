@@ -1,0 +1,37 @@
+.site-nav {
+    position: relative;
+    z-index: 1;
+}
+
+.site-nav__menu {
+    position: relative;
+    margin-left: auto;
+}
+
+.site-nav__menu summary {
+    color: #d98b64;
+    cursor: pointer;
+    padding: 12px;
+    border: 1px solid #f2eee7;
+}
+
+.site-nav__menu .site-nav__links {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background: #171716;
+    flex-direction: column;
+    gap: 0;
+    width: 200px;
+    padding: 8px;
+}
+
+.site-nav__menu .site-nav__links a {
+    padding: 12px;
+}
+
+.site-nav__menu .site-nav__links a:hover,
+.site-nav__menu .site-nav__links a:focus-visible {
+    background: #29231f;
+    color: #d98b64;
+}

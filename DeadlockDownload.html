@@ -7,18 +7,22 @@
     <meta name="description" content="Find Deadlock on Steam and check the latest access information.">
     <title>Download Deadlock</title>
     <link rel="stylesheet" href="DeadlockDownload.css">
+    <link rel="stylesheet" href="DeadlockNav.css">
 </head>
     
 <body>
     <header id="top">
         <nav class="site-nav" aria-label="Main navigation">
             <a class="site-nav__brand" href="DeadlockMain.html">DEADLOCK</a>
-            <div class="site-nav__links">
-                <a href="DeadlockMain.html">Home</a>
-                <a href="DeadlockInfo.html">Game info</a>
-                <a href="DeadlockGallery.html">Characters</a>
-                <a href="DeadlockDownload.html" aria-current="page">Download</a>
-            </div>
+            <details class="site-nav__menu">
+                <summary>Menu</summary>
+                <div class="site-nav__links">
+                    <a href="DeadlockMain.html">Home</a>
+                    <a href="DeadlockInfo.html">Game info</a>
+                    <a href="DeadlockGallery.html">Characters</a>
+                    <a href="DeadlockDownload.html" aria-current="page">Download</a>
+                </div>
+            </details>
         </nav>
     </header>
 
@@ -29,6 +33,8 @@
             </figure>
 
             <div class="download-content">
+                <h1 id="download-title">ENTER THE WORLD OF DEADLOCK</h1>
+                    <p>Visit the official Steam page to learn about access.</p>
                 <a class="download-action__button" href="https://store.steampowered.com/app/1422450/Deadlock/" target="_blank" rel="noopener noreferrer">
                     Get Deadlock on Steam
                     <span aria-hidden="true">→</span>

@@ -5,7 +5,7 @@
     color: #f2eee7;
     display: flex;
     justify-content: space-between;
-    padding: 14px 24px;
+    padding: 1.56vh 1.67vw;
 }
 
 .site-nav a {
@@ -28,7 +28,7 @@
 .site-nav__links {
     display: flex;
     flex-wrap: wrap;
-    gap: 12px 20px;
+    gap: 1.33vh 1.39vw;
 }
 
 #main{
@@ -51,7 +51,7 @@ h1{
 }
 
 #grid{
-    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(24.3vw, 1fr));
     padding-right: 1em;
     padding-bottom: 1em;
     height: auto;
@@ -78,7 +78,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2px;
+    margin: 0.22vh;
     height: 2em;
     color: white;
     border-radius: 0.3em;
@@ -98,7 +98,7 @@ img{
     display: none;
 }
 
-@media (min-width: 750px){
+@media (min-width: 46.875em){
     #grid > div:hover .hovedbilde{
         display: none;
     }
@@ -119,29 +119,29 @@ img{
     background: #11100f;
     border-top: 2px solid #a34d38;
     color: #f2eee7;
-    padding: 40px max(8vw, 24px) 20px;
+    padding: 4.44vh 8vw 2.22vh;
 }
 
 .site-footer__content {
     align-items: start;
     display: flex;
-    gap: 32px;
+    gap: 3.56vw;
     justify-content: space-between;
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 83.33vw;
 }
 
 .site-footer__brand p {
     color: #c7c1b7;
     line-height: 1.6;
-    margin: 12px 0 0;
-    max-width: 360px;
+    margin: 1.33vh 0 0;
+    max-width: 25vw;
 }
 
 .site-footer__links {
     display: flex;
     flex-wrap: wrap;
-    gap: 12px 24px;
+    gap: 1.33vh 1.67vw;
 }
 
 .site-footer a {
@@ -158,16 +158,16 @@ img{
     border-top: 1px solid #514137;
     color: #a9a196;
     font-size: 0.9rem;
-    margin: 28px auto 0;
-    max-width: 1200px;
-    padding-top: 16px;
+    margin: 3.11vh auto 0;
+    max-width: 83.33vw;
+    padding-top: 1.78vh;
 }
 
 .site-footer__bottom p {
     margin: 0;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 43.75em) {
     .site-footer__content {
         flex-direction: column;
     }

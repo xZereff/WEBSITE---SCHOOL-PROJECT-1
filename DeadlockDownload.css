@@ -18,7 +18,7 @@ body {
     color: #f2eee7;
     display: flex;
     justify-content: space-between;
-    padding: 20px 24px;
+    padding: 2.22vh 1.67vw;
 }
 
 .site-nav a {
@@ -41,7 +41,7 @@ body {
 .site-nav__links {
     display: flex;
     flex-wrap: wrap;
-    gap: 12px 20px;
+    gap: 1.33vh 1.39vw;
 }
 
 main {
@@ -52,9 +52,9 @@ main {
     align-items: center;
     display: flex;
     justify-content: center;
-    min-height: calc(100vh - 82px);
+    min-height: calc(100vh - 9.11vh);
     overflow: hidden;
-    padding: 48px 24px;
+    padding: 5.33vh 1.67vw;
     position: relative;
     text-align: center;
 }
@@ -81,7 +81,7 @@ main {
 }
 
 .download-content {
-    max-width: 760px;
+    max-width: 52.78vw;
     position: relative;
     z-index: 1;
 }
@@ -89,16 +89,16 @@ main {
 .download-action__button {
     align-items: center;
     background: rgba(201, 166, 107, 1);
-    border: 1px solid rgba(242, 238, 231, 0.65);
+    border: 1px solid rgba(201, 166, 107, 0.8);
     color: #171614;
     display: inline-flex;
     font-size: 1.05rem;
     font-weight: bold;
-    gap: 14px;
+    gap: 1.56vw;
     justify-content: center;
-    min-height: 54px;
-    margin: 28px auto 16px;
-    padding: 14px 28px;
+    min-height: 6vh;
+    margin: 3.11vh auto 1.78vh;
+    padding: 1.56vh 1.94vw;
     text-decoration: none;
     transition: background-color 160ms ease;
 }
@@ -111,37 +111,37 @@ main {
 .download-action__button:focus-visible,
 .site-nav a:focus-visible,
 .site-footer a:focus-visible {
-    outline: 2px solid #f2eee7;
-    outline-offset: 4px;
+    outline: 0.14vw solid #f2eee7;
+    outline-offset: 0.28vw;
 }
 
 .site-footer {
     background: #11100f;
     border-top: 2px solid #a34d38;
     color: #f2eee7;
-    padding: 40px max(8vw, 24px) 20px;
+    padding: 4.44vh 8vw 2.22vh;
 }
 
 .site-footer__content {
     align-items: start;
     display: flex;
-    gap: 32px;
+    gap: 3.56vw;
     justify-content: space-between;
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 83.33vw;
 }
 
 .site-footer__brand p {
     color: #c7c1b7;
     line-height: 1.6;
-    margin: 12px 0 0;
-    max-width: 360px;
+    margin: 1.33vh 0 0;
+    max-width: 25vw;
 }
 
 .site-footer__links {
     display: flex;
     flex-wrap: wrap;
-    gap: 12px 24px;
+    gap: 1.33vh 1.67vw;
 }
 
 .site-footer a {
@@ -158,25 +158,25 @@ main {
     border-top: 1px solid #514137;
     color: #a9a196;
     font-size: 0.9rem;
-    margin: 28px auto 0;
-    max-width: 1200px;
-    padding-top: 16px;
+    margin: 3.11vh auto 0;
+    max-width: 83.33vw;
+    padding-top: 1.78vh;
 }
 
 .site-footer__bottom p {
     margin: 0;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 43.75em) {
     .site-nav {
         align-items: flex-start;
         flex-direction: column;
-        gap: 16px;
+        gap: 1.78vh;
     }
 
     .download-page {
-        min-height: calc(100svh - 110px);
-        padding: 40px 24px;
+        min-height: calc(100svh - 12.22vh);
+        padding: 4.44vh 1.67vw;
     }
 
     .site-footer__content {
