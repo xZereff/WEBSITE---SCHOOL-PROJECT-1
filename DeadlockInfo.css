@@ -62,15 +62,16 @@ body {
 
 
 .info {
-    border: 0 solid #262626;
-    position: absolute;
-    right: 1vw;
-    bottom: 1v
-    height: 18vh;
-    width: 39vw;
-    font-size: 0.9vw;
-    font-family: arial, sans-serif;
-    line-height: 1.5;
+border: 1px solid #1e1e1e;
+border-radius: 1vh;
+background-color: #171716;
+color: #EFECE6;
+margin-bottom: 15vh;
+height: 15vh;
+font-size: 0.9vw;
+font-family: arial, sans-serif;
+line-height: 1.5;
+font-size: 1.4vw;
 }
 
 .spillertall{
@@ -83,22 +84,30 @@ gap: 2vh;
 
 .bilde{
 grid-column:1;
-background-color: #000000;
-border: 1px solid coral;
+    background-color: #171716;
+    border: 1px solid #514137;
+    border-right:0.4vw solid #d98b64;
+    border-radius: 1vw;
 }
 
 .bilde img {
-    height: 75vh;
-    width: 80vw;
-    position: absolute;
-    left: 10vw;
-    right: 10vh;
+    height: 100%;
+    width: 100%;
+    border: 0;
+    border-radius: 1vw;
 }
 
 .Chartinfo{
 grid-column: 2;
-background-color: #000000;
-border: 1px solid coral;
+    min-width: 0;
+    padding-top: 1vw;
+    background-color: #171716;
+    background:linear-gradient(#171716,#30251f);
+    border: 1px solid #514137;
+    border-left: 0.4vw solid #d98b64;
+    border-radius: 1vw;
+    color: #EFECE6;
+    font-size: 1.7vw;
 }
 
 
